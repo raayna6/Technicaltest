@@ -1,0 +1,117 @@
+.card{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 70%;
+    height: 70%;
+    border-radius: 20px;
+    margin-top: 4%;
+    margin-left: 15%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    .detail{
+        width: 40%;
+        margin-left: 50px;
+        margin-right: 90px;
+
+        .product-title-1{
+            font-size: 30px;
+            margin-top: 20px;
+            margin-bottom: 0px;
+            font-family: cursive;
+            font-weight: bolder;
+            color: #8b542f;
+            text-align: center;
+        }
+
+        .product-title-2{
+            font-size: 20px;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .img-detail{
+            height: 150px;
+            width: 250px;
+            margin-left: 20px;
+        }
+    }
+
+    .desc-detail{
+        margin-left: 50px;
+
+        .product-price{
+            font-size: 30px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-family: cursive;
+            font-weight: bolder;
+            color: #8b542f;
+            margin-left: 50px;
+        }
+
+        .minus{
+            background-color: #ed7801;
+            border: none;
+            color: white;
+            padding: 5px 12px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            margin: 4px 2px;
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .counter input{
+            height: 30px;
+            width: 180px;
+            bottom: 10px;
+            margin: 4px 2px;
+            border-radius: 8px;
+            text-align: center;
+            font-size: 20px;
+        }
+        
+        .plus{
+            background-color: #ed7801;
+            border: none;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            margin: 4px 2px;
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .add{
+            background-color: #ed7801;
+            border: none;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            margin: 4px 2px;
+            width: 260px;
+            height: 40px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    }
+
+    .garis-detail{
+        width: 0px;
+        height: 100%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 20px;
+        margin-left: 60px;
+    }
+}
