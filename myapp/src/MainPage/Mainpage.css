@@ -1,0 +1,61 @@
+.mainpage{
+    display: flex;
+    flex-direction: column;
+    
+
+    .judul{
+        font-weight: bolder;
+        color: #8b542f;
+        font-size: 35px;
+        margin: 10px;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .list{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 20px;
+        margin-left: 40px;
+        
+        .menu{
+            margin: 20px;
+            padding: 10px;
+            background-color: white;
+            border-radius: 20px;
+            cursor: pointer;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+            .pic{
+                width: 180px;
+                height: 120px;
+                margin: 10px;
+            }
+
+            .name{
+                display: flex;
+                flex-direction: row;
+
+                .desc{
+                    font-weight: normal;
+                    margin: 10px;
+                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                    color: #ed7801;
+                }
+
+                .btn{
+                    background-color: #ed7801;
+                    border-radius: 10px;
+                    border: #ed7801;
+                    color: white;
+                    margin-left: 20px;
+                    font-weight: bold;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
